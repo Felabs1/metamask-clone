@@ -13,10 +13,33 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", getSelectedNetwork);
   document.getElementById("add_network").addEventListener("click", setNetwork);
   document.getElementById("loginAccount").addEventListener("click", loginUser);
-  document.getElementById("loginAccount").addEventListener("click", loginUser);
-  document.getElementById("loginAccount").addEventListener("click", loginUser);
-  document.getElementById("loginAccount").addEventListener("click", loginUser);
-  document.getElementById("loginAccount").addEventListener("click", loginUser);
+  document
+    .getElementById("accountCreate")
+    .addEventListener("click", createUser);
+  document.getElementById("openCreate").addEventListener("click", openCreate);
+  document.getElementById("sign_up").addEventListener("click", signUp);
+  document.getElementById("login_up").addEventListener("click", login);
+  document.getElementById("logout").addEventListener("click", logout);
+  document
+    .getElementById("open_transfer")
+    .addEventListener("click", openTransfer);
+  document.getElementById("goBack").addEventListener("click", goBack);
+  document.getElementById("open_import").addEventListener("click", openImport);
+  document.getElementById("open_assets").addEventListener("click", openAssets);
+  document
+    .getElementById("open_activity")
+    .addEventListener("click", openActivity);
+  document.getElementById("goHomePage").addEventListener("click", goHomePage);
+  document
+    .getElementById("openAccountImport")
+    .addEventListener("click", openImportModel);
+  document
+    .getElementById("close_import_account")
+    .addEventListener("click", closeImportModel);
+  document.getElementById("add_new_token").addEventListener("click", addToken);
+  document
+    .getElementById("add_new_account")
+    .addEventListener("click", addAccount);
 });
 
 // state variable
